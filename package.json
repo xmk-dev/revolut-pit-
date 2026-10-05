@@ -1,5 +1,5 @@
 {
-    "name": "revolut-pit38",
+    "name": "revolut-pit",
     "version": "1.0.0",
     "description": "Kalkulator PIT-38 na podstawie skonsolidowanego wyciągu z Revolut (akcje/ETF, dywidendy, odsetki z kont oszczędnościowych) z kursami NBP",
     "keywords": [
@@ -14,12 +14,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xmk-dev/revolut-pit-.git"
+        "url": "git+https://github.com/xmk-dev/revolut-pit.git"
     },
     "bugs": {
-        "url": "https://github.com/xmk-dev/revolut-pit-/issues"
+        "url": "https://github.com/xmk-dev/revolut-pit/issues"
     },
-    "homepage": "https://github.com/xmk-dev/revolut-pit-#readme",
+    "homepage": "https://github.com/xmk-dev/revolut-pit#readme",
     "scripts": {
         "lint": "eslint --cache src/**/*.ts && prettier --check src/**/*.ts",
         "lint:fix": "eslint --cache --fix src/**/*.ts && prettier --write src/**/*.ts",

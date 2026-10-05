@@ -1,4 +1,4 @@
-# 🇵🇱 revolut-pit38
+# 🇵🇱 revolut-pit
 
 **Kalkulator PIT-38 dla inwestorów korzystających z Revolut.**
 Wczytuje skonsolidowany wyciąg z Revolut (CSV), przelicza wszystko na złotówki po kursach NBP zgodnie z polskimi przepisami i generuje czytelny raport Excel, który pomoże Ci wypełnić PIT-38 — i obronić rozliczenie przed urzędem skarbowym.
@@ -35,13 +35,15 @@ Wczytuje skonsolidowany wyciąg z Revolut (CSV), przelicza wszystko na złotówk
 | 💵 **Dywidendy zagraniczne** | `Transactions for Brokerage Account dividends - {waluta}` | Dywidendy brutto, 19% podatku należnego, odliczenie podatku pobranego za granicą, dopłata w Polsce |
 | 🏦 **Odsetki z kont oszczędnościowych** | `Transactions for Savings Accounts - {waluta}` (wiersze `Interest earned`) | Suma odsetek w PLN i 19% podatku |
 
+Wszystkie trzy rodzaje dochodu rozlicza się w zeznaniu **PIT-38**, więc projekt obsługuje **wyłącznie PIT-38**. Nie liczy PIT-36/37 ani nie generuje załącznika PIT/ZG.
+
 Obsługiwane są wszystkie waluty, dla których NBP publikuje kurs w tabeli A (EUR, USD, GBP, CHF, …) oraz PLN.
 
 ## Szybki start
 
 ```bash
-git clone https://github.com/xmk-dev/revolut-pit-.git
-cd revolut-pit-
+git clone https://github.com/xmk-dev/revolut-pit.git
+cd revolut-pit
 npm install
 
 # wrzuć swój wyciąg do katalogu data/ (jest w .gitignore)
@@ -114,8 +116,8 @@ node -v   # powinno pokazać v20 lub nowszą
 **2. Pobierz projekt i zainstaluj zależności:**
 
 ```bash
-git clone https://github.com/xmk-dev/revolut-pit-.git
-cd revolut-pit-
+git clone https://github.com/xmk-dev/revolut-pit.git
+cd revolut-pit
 npm install
 ```
 
@@ -235,7 +237,7 @@ do zapłaty w PL   = podatek należny − odliczenie
 - Nie uwzględnia strat z lat poprzednich ani innych rachunków maklerskich — te dane musisz dodać samodzielnie w formularzu.
 - Nie generuje załącznika **PIT/ZG** (dochody zagraniczne) — jeśli jest Ci potrzebny, wypełnij go na podstawie raportu.
 - Numery pozycji formularza zmieniają się między wersjami PIT-38 — przed złożeniem zeznania porównaj je z formularzem na swój rok.
-- Kalkulator polega na formacie wyciągu Revolut. Jeśli Revolut zmieni układ pliku, parser może wymagać aktualizacji — [zgłoś issue](https://github.com/xmk-dev/revolut-pit-/issues) i dołącz **zanonimizowany** fragment pliku.
+- Kalkulator polega na formacie wyciągu Revolut. Jeśli Revolut zmieni układ pliku, parser może wymagać aktualizacji — [zgłoś issue](https://github.com/xmk-dev/revolut-pit/issues) i dołącz **zanonimizowany** fragment pliku.
 
 ## Struktura projektu
 
