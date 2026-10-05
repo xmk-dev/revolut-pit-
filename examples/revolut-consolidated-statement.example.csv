@@ -1,0 +1,81 @@
+Summary for Savings Accounts - EUR
+Description,Amount
+Opening balance,€100
+Total Deposit,€500
+Total Withdrawal,€200
+Total earned interest,€0.12
+Total tax,€0
+Total fee,€0
+Closing balance,€400.12
+
+Summary for Savings Accounts - PLN
+Description,Amount
+Opening balance,"1,000 PLN"
+Total Deposit,"5,000 PLN"
+Total Withdrawal,"2,000 PLN"
+Total earned interest,1.85 PLN
+Total tax,0 PLN
+Total fee,0 PLN
+Closing balance,"4,001.85 PLN"
+
+Summary for Brokerage Account - EUR
+"Portfolio  created on Jan 10, 2022"
+
+
+Sells summary,Amount
+Gross proceeds,"€1,150"
+Cost basis,"€1,000"
+Realised gross PnL,€150
+
+Other Income and Fees summary,Amount
+Dividends,€0
+Withholding tax,€0
+Amount,€0
+
+Summary for Brokerage Account - USD
+"Portfolio  created on Jan 10, 2022"
+
+
+Sells summary,Amount
+Gross proceeds,$880
+Cost basis,$950
+Realised gross PnL,-$70
+
+Other Income and Fees summary,Amount
+Dividends,$12.50
+Withholding tax,$1.88
+Amount,$10.62
+
+Transactions for Savings Accounts - EUR
+Date,Description,Money out,Money in,Balance
+"Jan 2, 2025",Interest earned,,€0.03,€100.03
+"Jan 3, 2025",Interest earned,,€0.03,€100.06
+"Feb 14, 2025",Depositing savings,,€500,€600.06
+"Feb 15, 2025",Interest earned,,€0.03,€600.09
+"Mar 20, 2025",Withdrawing savings,€200,,€400.09
+"Mar 21, 2025",Interest earned,,€0.03,€400.12
+
+Transactions for Savings Accounts - PLN
+Date,Description,Money out,Money in,Balance
+"Jan 2, 2025",Interest earned,,0.45 PLN,"1,000.45 PLN"
+"Apr 1, 2025",Depositing savings,,"5,000 PLN","6,000.45 PLN"
+"Apr 2, 2025",Interest earned,,0.80 PLN,"6,001.25 PLN"
+"Jun 30, 2025",Withdrawing savings,"2,000 PLN",,"4,001.25 PLN"
+"Jul 1, 2025",Interest earned,,0.60 PLN,"4,001.85 PLN"
+
+Transactions for Brokerage Account sells - EUR
+"Portfolio  created on Jan 10, 2022"
+Date acquired,Date sold,Security name,Symbol,ISIN,Country,Qty,Cost basis,Cost basis base currency,Cost basis rate,Gross proceeds,Gross proceeds base currency,Gross proceeds rate,Gross PnL,Gross PnL base currency,Fees,Fees  base currency
+"Nov 4, 2024","Mar 19, 2025",Example Global Equity UCITS ETF (Acc),EXMP,IE00EXAMPLE01,IE,10,"€1,000","4,300 PLN",4.3,"€1,150","4,820 PLN",4.191304347826087,€150,520 PLN,€0,0 PLN
+
+Transactions for Brokerage Account sells - USD
+"Portfolio  created on Jan 10, 2022"
+Date acquired,Date sold,Security name,Symbol,ISIN,Country,Qty,Cost basis,Cost basis base currency,Cost basis rate,Gross proceeds,Gross proceeds base currency,Gross proceeds rate,Gross PnL,Gross PnL base currency,Fees,Fees  base currency
+"Jun 3, 2024","Feb 10, 2025",Example Tech Corp,EXTC,US0000EXAMPL,US,5,$500,"2,000 PLN",4,$430,"1,750 PLN",4.069767441860465,-$70,-250 PLN,$0.50,2.03 PLN
+"Jul 15, 2024","Aug 5, 2025",Example Industries Inc,EXIN,US0000EXAMP2,US,2.5,$450,"1,770 PLN",3.933333333333333,$450,"1,650 PLN",3.666666666666667,$0,-120 PLN,$0,0 PLN
+
+Transactions for Brokerage Account dividends - USD
+"Portfolio  created on Jan 10, 2022"
+Date,Security name,Symbol,ISIN,Country,Gross amount,Gross amount base currency,Gross amount rate,Withholding tax,Withholding tax base currency,Net amount,Net amount base currency
+"May 15, 2025",Example Tech Corp dividend,EXTC,US0000EXAMPL,US,$5,18.80 PLN,,$0.75,2.82 PLN,$4.25,15.98 PLN
+"Nov 14, 2025",Example Industries Inc dividend,EXIN,US0000EXAMP2,US,$7.50,27.60 PLN,,$1.13,4.16 PLN,$6.37,23.44 PLN

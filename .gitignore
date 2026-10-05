@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+.eslintcache
+
+# Twoje prywatne dane — nigdy ich nie commituj
+data/
+*.csv
+*.xlsx
+!examples/*.csv
